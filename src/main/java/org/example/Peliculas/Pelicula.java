@@ -57,12 +57,12 @@ public class Pelicula {
 
     @Override
     public String toString() {
-        return "{" +
-                "id=" + id +
-                ", nombre='" + nombre + '\'' +
-                ", genero='" + genero + '\'' +
-                ", anio=" + anio +
-                ", calificacion_imdb=" + calificacion_imdb +
+        return "Pelicula{" +
+                "id: " + id +
+                ", nombre: '" + nombre + '\'' +
+                ", genero: '" + genero + '\'' +
+                ", anio: " + anio +
+                ", calificacion_imdb: " + calificacion_imdb +
                 '}';
     }
 }
