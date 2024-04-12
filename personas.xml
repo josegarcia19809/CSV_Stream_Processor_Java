@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Personas>
+    <Persona>
+        <id>0</id>
+        <nombre>Roberto</nombre>
+        <apellido>Tellez</apellido>
+        <anioNacimiento>1995</anioNacimiento>
+        <salario>218</salario>
+        <coeficiente>6.55</coeficiente>
+    </Persona>
+    <Persona>
+        <id>1</id>
+        <nombre>Maria</nombre>
+        <apellido>González</apellido>
+        <anioNacimiento>2013</anioNacimiento>
+        <salario>2</salario>
+        <coeficiente>5.67</coeficiente>
+    </Persona>
+    <Persona>
+        <id>2</id>
+        <nombre>Juan</nombre>
+        <apellido>Davila</apellido>
+        <anioNacimiento>2003</anioNacimiento>
+        <salario>299</salario>
+        <coeficiente>1.99</coeficiente>
+    </Persona>
+</Personas>
