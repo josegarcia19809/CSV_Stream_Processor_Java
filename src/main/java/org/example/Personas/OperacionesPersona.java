@@ -51,14 +51,49 @@ public class OperacionesPersona {
                 .collect(Collectors.toCollection(ArrayList::new));
     }
 
-    public int numeroPersonas(ArrayList<Persona> lista) {
-        return (int) lista.stream().count();
+    public int numeroPersonas() {
+        return (int) listaPersonas.stream().count();
     }
 
     public ArrayList<Persona> losRobles() {
         return listaPersonas.stream()
                 .filter(persona -> persona.getApellido().equalsIgnoreCase("Robles"))
                 .collect(Collectors.toCollection(ArrayList::new));
+    }
+
+    public ArrayList<Persona> obtenerPersonasPorApellido(String apellido) {
+        return listaPersonas.stream()
+                .filter(persona -> persona.getApellido().equalsIgnoreCase(apellido))
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
+
+    public ArrayList<Persona> conCoeficienteEntre5y10() {
+        return listaPersonas.stream()
+                .filter(persona -> persona.getCoeficiente() >= 5
+                        && persona.getCoeficiente() <= 10)
+                .collect(Collectors.toCollection(ArrayList::new));
+    }
+
+    public double sumaTodosLosSalarios() {
+        return listaPersonas.stream()
+                .mapToDouble(persona -> persona.getSalario())
+                .sum();
+    }
+
+
+    public int numeroPersonasSalarioMayor500() {
+        return (int) listaPersonas.stream()
+                .filter(persona -> persona.getSalario() > 500)
+                .count();
+    }
+
+
+    public double mayorSalarioRobles() {
+        return listaPersonas.stream()
+                .filter(persona -> persona.getApellido().
+                        equalsIgnoreCase("Robles"))
+                .mapToDouble(persona -> persona.getSalario())
+                .max().getAsDouble();
     }
 
 }
