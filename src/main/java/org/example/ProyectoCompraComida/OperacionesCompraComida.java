@@ -2,7 +2,6 @@ package org.example.ProyectoCompraComida;
 
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
-import org.example.Personas.Persona;
 
 import java.io.FileReader;
 import java.io.IOException;
