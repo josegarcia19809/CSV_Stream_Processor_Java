@@ -1,0 +1,20 @@
+<biblioteca>
+    <libro>
+        <titulo>El principito</titulo>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <anio>1943</anio>
+        <genero>Fábula</genero>
+    </libro>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J.K. Rowling</autor>
+        <anio>1997</anio>
+        <genero>Fantasía</genero>
+    </libro>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <anio>1967</anio>
+        <genero>Realismo mágico</genero>
+    </libro>
+</biblioteca>
