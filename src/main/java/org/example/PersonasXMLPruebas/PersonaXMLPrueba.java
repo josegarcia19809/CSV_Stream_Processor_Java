@@ -19,7 +19,7 @@ import org.xml.sax.SAXException;
 
 public class PersonaXMLPrueba {
     public static void main(String[] args) {
-        //crearDocumentoXML();
+        crearDocumentoXML();
         leerDocumentoXML();
     }
 
