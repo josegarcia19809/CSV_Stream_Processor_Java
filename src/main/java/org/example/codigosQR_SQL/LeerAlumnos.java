@@ -1,4 +1,4 @@
-package org.example.codigosQR;
+package org.example.codigosQR_SQL;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.Statement;
 
 public class LeerAlumnos {
     public static void main(String[] args) {
-        // Configuración de la conexión
+        // Configuración de la conexión, 127.0.0.1
         String url = "jdbc:mysql://localhost:3306/registrosqr"; // URL de tu base de datos MySQL
         String user = "root"; // Usuario de la base de datos
         String password = ""; // Contraseña de la base de datos
